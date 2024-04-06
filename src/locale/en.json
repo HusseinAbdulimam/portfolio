@@ -1,0 +1,58 @@
+{
+    "home" : {
+        "home_greeting": "Hello I'm",
+        "home_name": "Hussein Abdulimam",
+        "home_education": "Full stack Developer",
+        "btn_cv": "Download CV",
+        "btn_about": "Who am I?"
+    },
+    "about" : {
+        "section_subtitle": "My Intro",
+        "section_title": "Who am I?",
+        "box_title1": "Experience",
+        "box_subtitle1": "2 Years Working",
+        "box_title2": "Completed",
+        "box_subtitle2": "20 + Projects",
+        "box_title3": "Support",
+        "box_subtitle3": "Online 24/7",
+        "about_description1": "Hi, My name is Hussein Abdulimam, As a full stack Developer, I specialize in crafting modern, clean, and responsive websites that offer the best user experience. Feel free to explore my portfolio to discover my latest projects and learn more about my skills and experience in the field. My job is to build your website to be functional, user-friendly, and attractive. Moreover, I add a personal touch to your product and make sure that it is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many users. Experienced working with teams to produce impactful, leading-edge websites that engage customers and deliver business results. Well-versed in design standards and user preferences.",
+
+        "about_description":"I am Mr. Hussein Abdulimam from Basrah, Iraq.\nI obtained a bachelor's degree in computer science from the University of Basrah in 2021.\nI worked at the University of Basrah from 4/19/2022 to 4/26/2023 as a system administrator for canceling the validity of issuance of documents for postgraduate studies.\nI am a mathematics and computer teacher at Al-Rumah Al-Awali Preparatory School for Boys.\nIn addition, I am a programmer and web application developer. My goal is to build your website to be functional, easy to use and attractive.\nFurthermore, I add a personal touch to your product and make sure it is eye-catching and easy to use, communicating your message and identity in the most creative way.\nI have skills in:\n[Computer programs, Effective communication, Problem solving, Working within a team, Team leadership, Achievement]\n Feel free to explore my site to discover my latest projects and learn more about my skills and experience in this field.",
+        "btn_contact": "Contact Me"
+    },
+    "skills" : {
+        "section_subtitle": "My abilities",
+        "section_title": "My Skills",
+        "frontend_title": "Frontend developer",
+        "skill_good": "Good",
+        "skill_vgood": "Very Good",
+        "skill_exce": "Excellence",
+        "backend_title": "Backend developer"
+    },
+    "work" : {
+        "section_subtitle": "My Protfolio",
+        "section_title": "Recent Works"
+    },
+    "contact" : {
+        "section_subtitle": "Get in touch",
+        "section_title": "Contact with Me",
+        "contact_title": "Talk to me",
+        "box_email_title": "e-Mail",
+        "box_email_data": "husseinabdulimam@gmail.com",
+        "box_telegram_title": "Telegram",
+        "box_telegram_data": "@java_fx",
+        "box_instagram_title": "Instagram",
+        "box_instagram_data": "@java_fx",
+        "form_title": "Write me your project",
+        "form_name": "Name",
+        "form_name_place": "Insret your name",
+        "form_email": "Mail",
+        "form_email_place": "Insert your email",
+        "form_msg": "Project",
+        "form_msg_place": "Write your project",
+        "btn_send": "Send Message",
+        "btn_send_lod": "Sending...",
+        "btn_send_done": "Your email has been sent successfully",
+        "btn_send_fild": "An error occurred, try again"
+    }
+}

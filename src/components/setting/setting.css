@@ -1,0 +1,73 @@
+.nav-sitting {
+    width: 40px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+.nav-sitting .nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(225deg);
+}
+.nav-content .toggle-btn,
+.nav-content span {
+    height: 20px;
+    width: 20px;
+    background-color: var(--text-color-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.nav-content .toggle-btn {
+    font-size: var(--h2-font-size);
+    color: var(--text-color);
+    z-index: 100;
+    cursor: pointer;
+    background-color: transparent;
+    transform: rotate(125deg);
+    transition: all 0.6s ease;
+}
+.nav-content .toggle-btn:hover,
+.nav-sitting.open .toggle-btn {
+    color: var(--first-color);
+}
+.nav-content span {
+    position: absolute;
+    transition: all 0.6s ease;
+    opacity: 0;
+}
+.nav-content span::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.nav-content span.active::before {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, var(--title-color) 0px 0px 0px 3px;
+}
+.nav-sitting.open .nav-content span {
+    transform: rotate(calc(var(--i) * (360deg / 8))) translateY(35px);
+    opacity: 1;
+}
+.nav-content span {
+    transform: rotate(45deg);
+}
+.nav-content span:nth-of-type(1) {
+    background-color: hsl(250, 66%, 75%);
+}
+.nav-content span:nth-of-type(2) {
+    background-color: hsl(207, 90%,72%);
+}
+.nav-content span:nth-of-type(3) {
+    background-color: hsl(160, 100%, 32%);
+}
+.nav-content span:nth-of-type(4) {
+    background-color: hsl(348, 83%, 47%);
+}
+.nav-content span:nth-of-type(5) {
+    background-color: hsl(4, 90%, 58%);
+}
